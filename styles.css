@@ -1,0 +1,24 @@
+* {
+    margin: 0vw;
+    padding: 0vw;
+}
+
+main {
+    background-color: #a8a8a8;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header {
+    background-color: #d9d9d9;
+}
+
+.logo {
+    width: 10vw;
+}
