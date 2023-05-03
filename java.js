@@ -27,7 +27,4 @@ function showSlides(n) {
 document.getElementById('prev').addEventListener('click', plusSlides(-1));
 document.getElementById('next').addEventListener('click', plusSlides(1));
 
-// form
-
-document.getElementById('form').addEventListener('click', );
 
