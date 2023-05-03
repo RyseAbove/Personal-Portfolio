@@ -15,19 +15,27 @@ main {
     padding-bottom: 2vw;
 }
 
-.top-nav {
+.top-nav-logo {
     list-style: none;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    border-bottom: .1vw solid black;
     padding-top: 2vw;
     padding-bottom: 2vw;
 }
 
-.top-nav:hover {
-    background-color: #d9d9d9;
+.top-nav {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    border: .1vw solid black;
+    border-radius: 0.5vw;
+    padding: 0.5vw;
+}
+
+.top-nav :hover {
+    background-color: #a8a8a8;
 }
 
 header {
@@ -80,13 +88,13 @@ footer {
 .left-image,
 .right-image {
     max-width: 80vw;
-    width: 90%;
+    width: 70%;
     margin-bottom: 1vw;
     border: .1vw solid black;
 }
 
 .image {
-    width: 50%;
+    width: 45%;
     border: .1vw solid black;
 }
 
@@ -140,6 +148,12 @@ footer {
 
 .about-top-img {
     width: 45%;
+    border: .1vw solid black;
+}
+
+.about-img-bottom {
+    width: 45%;
+    border: .1vw solid black;
 }
 
 .about-text-box {
@@ -166,9 +180,7 @@ footer {
     margin-top: 2.5vw;
 }
 
-.about-img-bottom {
-    width: 48%;
-}
+
 
 .form {
     display: flex;
@@ -205,6 +217,12 @@ footer {
     align-self: center;
     width: 50%;
     margin-top: 1vw;
+}
+
+.sub-button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .resume {

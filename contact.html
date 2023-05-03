@@ -49,14 +49,17 @@
     <main>
         <section class="form-box">
             <div class="form-inner-content">
-                <h4 class="form-header">Thank you for looking through my portfolio! I hope that you had a fun time
+                <h3 class="form-header">Thank you for looking through my portfolio! I hope that you had a fun time
                     reading about me and just some of the things that I have achieved throughout my life. If you would
-                    wish to contact me, fill out this form and email me!</h4>
+                    wish to contact me, fill out this form and email me!</h3>
                 <section class="form">
-                    <form action="mailto:noahlayton2006@gmail.com" method="post" enctype="text/plain">
-                        Name: <br><input type="text" name="add_name"> <br>
-                        Subject: <br><input type="text" name="add_subject"> <br>
-                        <input class="submit-button" type="submit" value="Send">
+                    <!-- MAKE THE FORM FUNCTIONAL -->
+                    <form id="form-sub" method="post" enctype="text/plain">
+                        Name: <br> <input type="text" name="add_name"> <br>
+                        Subject: <br> <input type="text" name="add_subject"> <br>
+                        <div class="sub-button">
+                            <input class="submit-button" type="submit" value="Send" href="https://mail.google.com/mail/u/1/#inbox?compose=new">
+                        </div>
                     </form>
                 </section>
             </div>
