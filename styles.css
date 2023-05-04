@@ -11,12 +11,30 @@
 
 main {
     background-color: #a8a8a8;
-    padding-top: 2vw;
-    padding-bottom: 2vw;
+    padding-top: 1.7vw;
+    padding-bottom: 1.7vw;
+    border-top: .1vw solid black;
+    border-bottom: .1vw solid black;
 }
 
 a {
     text-decoration: none;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer {
+    background-color: #d9d9d9;
+}
+
+header {
+    background-color: #d9d9d9;
 }
 
 .top-nav-logo {
@@ -25,8 +43,8 @@ a {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    padding-top: 2vw;
-    padding-bottom: 2vw;
+    padding-top: 1.3vw;
+    padding-bottom: 1.3vw;
 }
 
 .top-nav,
@@ -60,8 +78,7 @@ a {
     display: none;
     position: absolute;
     background-color: #f1f1f1;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0, 0.2);
+    min-width: 147px;
     z-index: 1;
 }
 
@@ -80,9 +97,6 @@ a {
     background-color: #d9d9d9;
 }
 
-header {
-    background-color: #d9d9d9;
-}
 
 .logo {
     width: 10vw;
@@ -100,23 +114,12 @@ header {
     padding-bottom: 2vw;
 }
 
-footer ul {
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-}
 
-footer {
-    background-color: #d9d9d9;
-    border-top: 0.1vw solid black;
-}
 
 .intro-text {
     display: flex;
     justify-content: center;
-
+    margin-top: 1.5vw;
 }
 
 .intro {
