@@ -15,6 +15,10 @@ main {
     padding-bottom: 2vw;
 }
 
+a {
+    text-decoration: none;
+}
+
 .top-nav-logo {
     list-style: none;
     display: flex;
@@ -25,30 +29,50 @@ main {
     padding-bottom: 2vw;
 }
 
-.top-nav {
+.top-nav,
+.top-nav-port {
     list-style: none;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    border: .1vw solid black;
-    border-radius: 0.5vw;
-    padding: 0.5vw;
 }
 
-.top-nav :hover {
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.top-nav :hover,
+.top-nav-port :hover {
     background-color: #a8a8a8;
+    transition: .5s;
 }
 
 .top-drop {
     list-style: none;
-    display: flex;
-    flex-direction: row;
+    display: none;
+    flex-direction: column;
     justify-content: center;
     padding: 0.5vw;
+    position: absolute;
+    text-align: center;
 }
 
 .top-drop :hover {
     background-color: #a8a8a8;
+}
+
+.top-drop,
+.top-nav a :hover {
+    display: block;
+}
+
+.nav-button {
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    font-size: 1vw;
 }
 
 header {
