@@ -131,10 +131,16 @@ header {
 
 .left-image,
 .right-image {
-    max-width: 80vw;
-    width: 70%;
+    /* max-width: 80vw; */
+    width: 30vw;
+    display: flex;
+    justify-content: space-around;
     margin-bottom: 1vw;
     border: .1vw solid black;
+}
+
+.orchestra {
+    width: 43vw;
 }
 
 .image {
