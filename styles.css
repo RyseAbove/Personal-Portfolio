@@ -10,7 +10,8 @@
 }
 
 main {
-    background-color: #a8a8a8;
+    background-image: url(images/always-grey.png);
+    background-color: #ababab;
     padding-top: 1.7vw;
     padding-bottom: 1.7vw;
     border-top: .1vw solid black;
@@ -152,8 +153,8 @@ header {
 }
 
 .interview {
-    height: 28.685vw;
-    width: 40vw;
+    height: 28.75vw;
+    width: 43vw;
     margin-left: 0;
     margin-right: 2vw;
     margin-bottom: 1vw;
@@ -166,6 +167,7 @@ header {
 .portfolio-row {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
 }
 
 .half-section {
