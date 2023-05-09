@@ -14,7 +14,7 @@
     <header>
         <ul class="top-nav-logo">
             <a class="top-nav-logo" href="index.html">
-                <li ><img class="logo" src="/images/website-logo.png" alt="logo">
+                <li><img class="logo" src="/images/website-logo.png" alt="logo">
             </a>
             </li>
             <a class="top-nav" href="index.html">
@@ -55,12 +55,15 @@
                     wish to contact me, fill out this form and email me!</h3>
                 <section class="form">
                     <!-- MAKE THE FORM FUNCTIONAL -->
-                    <form id="form-sub" method="post" enctype="text/plain">
-                        Name: <br> <input type="text" name="add_name"> <br>
-                        Subject: <br> <input type="text" name="add_subject"> <br>
-                        <div class="sub-button">
-                            <a href="https://mail.google.com/mail/u/3/#inbox?compose=new"><input class="submit-button" type="submit" value="Send"></a>
-                        </div>
+                    <form action="mailto:noahlayton2006@gmail.com" method="get" enctype="text/plain"
+                        class="form-content">
+                    <h3>Name:</h3>
+                    <input type="email" name="email">
+                    <h3>Subject:</h3>
+                    <input type="text" name="subject">
+                    <h3>Message:</h3>
+                    <textarea name="body" cols="30" rows="10" wrap="hard" maxlength="200"></textarea>
+                    <input type="submit" class="send" value="send">
                     </form>
                 </section>
             </div>
