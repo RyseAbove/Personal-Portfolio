@@ -43,6 +43,10 @@ h2 {
     font-size: 1.4em;
 }
 
+.current {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
 .top-nav-logo {
     list-style: none;
     display: flex;
