@@ -38,6 +38,15 @@ header {
     background-color: #d9d9d9;
 }
 
+h1 {
+    font-size: 1.6em;
+    text-decoration: underline;
+}
+
+h2 {
+    font-size: 1.4em;
+}
+
 .top-nav-logo {
     list-style: none;
     display: flex;
@@ -255,6 +264,7 @@ header {
     margin-top: 2.5vw;
     padding: 2vw;
     width: 60%;
+    font-size: 1.1vw;
 }
 
 .about-img {
