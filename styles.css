@@ -30,12 +30,8 @@ footer ul {
     align-items: center;
 }
 
-footer {
-    background-color: #d9d9d9;
-}
-
-header {
-    background-color: #d9d9d9;
+header, footer {
+    background-color: #d5d3d3;
 }
 
 h1 {
