@@ -345,6 +345,10 @@ header {
     font-size: 0.9vw;
 }
 
+.email-text {
+    resize: none;
+}
+
 /* image carousel */
 
 .image-carousel {
