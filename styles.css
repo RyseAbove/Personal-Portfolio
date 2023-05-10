@@ -141,6 +141,19 @@ header {
 
 .orchestra {
     width: 43vw;
+    margin-right: 8vw;
+}
+
+.family {
+    margin-left: none;
+}
+
+.web-dev {
+    margin-left: 6vw;
+}
+
+.mental-heatlh {
+    margin-right: 6vw;
 }
 
 .port-image {
@@ -177,7 +190,6 @@ header {
 }
 
 .half-section {
-    max-width: 60vw;
     margin-top: 3.5vw;
     display: flex;
     flex-direction: column;
