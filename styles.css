@@ -162,12 +162,11 @@ h2 {
 }
 
 .orchestra {
-    width: 33vw;
-    margin-right: 8vw;
+    width: 31vw;
 }
 
 .family {
-    margin-left: none;
+    width: 34vw;
 }
 
 .web-dev {
