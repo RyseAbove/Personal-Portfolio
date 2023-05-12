@@ -117,6 +117,12 @@ h2 {
 
 .logo {
     width: 10vw;
+    display: flex;
+    margin: 0vw 2vw 0vw 2vw;
+}
+
+.linkedin {
+    width: 5vw;
 }
 
 .footer-top {
