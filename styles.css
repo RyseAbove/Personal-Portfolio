@@ -299,6 +299,7 @@ h2 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 0.6vw;
 }
 
 .form-header {
