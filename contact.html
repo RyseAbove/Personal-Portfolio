@@ -54,17 +54,25 @@
                     reading about me and just some of the things that I have achieved throughout my life. If you would
                     wish to contact me, fill out this form and email me!</h3>
                 <section class="form">
-                    <form action="mailto:noahlayton2006@gmail.com" method="get" enctype="text/plain"
-                        class="form-content">
+                    <form
+                        action="https://script.google.com/macros/s/AKfycbzvIEvN9sD6-pB2xo5K5N9TADsg5rKGWgZ5gZLy5W_olRH5Q2amhEdTK2Y3Y5Kxz9pI/exec"
+                        method="post" enctype="text/plain" class="form-content" id="SurveyForm">
                         <h3>Email:</h3>
-                        <input placeholder="johndoe@gmail.com" type="email" name="email">
-                        <h3>Subject:</h3>
-                        <input placeholder="Hello!" type="text" name="subject">
-                        <h3>Message:</h3>
-                        <textarea placeholder="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed dui pellentesque, euismod erat eu, maximus diam. Morbi massa mauris, fringilla non cursus eu, maximus vel sapien. Morbi massa mauris, fringilla non cursus eu, maximus vel sapien." name="body" cols="25" rows="10" wrap="hard" maxlength="200" class="email-text"></textarea>
+                        <input placeholder="johndoe@gmail.com" type="email" name="Email" required>
                         <br>
-                        <input type="submit" class="send" value="Send">
+                        <h3>Name:</h3>
+                        <input placeholder="John Doe" type="text" name="Name" required>
+                        <br>
+                        <!-- <h3>Message:</h3>
+                        <textarea
+                            placeholder="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed dui pellentesque, euismod erat eu, maximus diam. Morbi massa mauris, fringilla non cursus eu, maximus vel sapien. Morbi massa mauris, fringilla non cursus eu, maximus vel sapien."
+                            name="body" cols="25" rows="10" wrap="hard" maxlength="200" class="email-text"></textarea> -->
+                        <br>
+                        <button type="submit" class="send">Send</button>
                     </form>
+                    <script type="text/javascript">
+                        window.addEventListener("DOMContentLoaded", function () { const yourForm = document.getElementById('SurveyForm'); yourForm.addEventListener("submit", function (e) { e.preventDefault(); const data = new FormData(yourForm); const action = e.target.action; fetch(action, { method: 'POST', body: data, }).then(() => { window.location.replace(''); }) }) });
+                    </script>
                 </section>
             </div>
         </section>
