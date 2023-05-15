@@ -35,12 +35,24 @@ header, footer {
 }
 
 h1 {
-    font-size: 1.6em;
+    font-size: 1vw;
     text-decoration: underline;
 }
 
 h2 {
-    font-size: 1.4em;
+    font-size: .9vw;
+}
+
+h3 {
+    font-size: .7vw;
+}
+
+h4 {
+    font-size: .6vw;
+}
+
+ul {
+    font-size: .7vw;
 }
 
 .header {
@@ -337,13 +349,19 @@ h2 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 }
 
 .resume-inner-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 1vw;
     border: .1vw solid black;
     background-color: #d9d9d9;
-    line-height: 2vw;
+    line-height: 1.3vw;
+    width: 41%;
 }
 
 .subtitle {
@@ -458,8 +476,10 @@ h2 {
     color: black;
     font-size: 1.3vw;
     padding-top: 1vw;
-    bottom: 1vw;
+    padding-bottom: 1vw;
     text-align: center;
+    /* border: .1vw solid black; */
+    width: 100%;
 }
 
 /* Number text (1/3 etc) */
