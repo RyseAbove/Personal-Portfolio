@@ -379,6 +379,11 @@ h2 {
     padding-left: 1vw;
     padding-right: 1vw;
     font-size: 0.9vw;
+    margin: 0 1vw 0 1vw; 
+}
+
+.view-resume a {
+    color: rgba(2, 2, 169, 0.864);
 }
 
 .email-text {
