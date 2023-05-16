@@ -54,6 +54,10 @@ ul {
     font-size: .7vw;
 }
 
+p {
+    font-size: .7vw;
+}
+
 .header {
     border: .1vw solid black;
     padding: 0.7vw 1vw 0.7vw 1vw;
