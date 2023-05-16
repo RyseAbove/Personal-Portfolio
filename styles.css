@@ -115,7 +115,7 @@ p {
     display: none;
     position: absolute;
     background-color: #f1f1f1;
-    min-width: 147px;
+    width: 7.4vw;
     z-index: 1;
 }
 
